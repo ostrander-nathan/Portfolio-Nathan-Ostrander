@@ -1,164 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>Parallax Template - Materialize</title>
-
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title>Nathan Ostrander - Portfolio</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
+
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    <nav class="white" role="navigation" id="top">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#about">About</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="https://www.linkedin.com/in/nathan-ostrander-6b360948/" target="_blank">LinkedIn</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="https://github.com/ostrander-nathan" target="_blank">GitHub</a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#about">About</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="https://www.linkedin.com/in/nathan-ostrander-6b360948/" target="_blank">LinkedIn</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="https://github.com/ostrander-nathan" target="_blank">GitHub</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#projects">Projects</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br>
+                <br>
+                <div class="row center">
+                    <img src="NathanHead.png" alt="" class="" id="nathanHead">
+                    <h1 class="header center teal-text text-lighten-2">Nathan Ostrander</h1>
+                    <h5 class="header col s12 light">Developer, Titans Fan, Buffalo Wing Enthusiast</h5>
+                </div>
+                <!-- <div class="row center">
+    <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+</div>
+ -->
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
     </div>
-  </nav>
-
-  <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
-      </div>
-    </div>
-    <div class="parallax"><img src="background1.jpg" alt="Unsplashed background img 1"></div>
-  </div>
-
-
-  <div class="container">
-    <div class="section">
-
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-            <h5 class="center">Speeds up development</h5>
-
-            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
-            <h5 class="center">User Experience Focused</h5>
-
-            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
-            <h5 class="center">Easy to work with</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Contact Us</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-        </div>
-      </div>
-    </div>
-    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
-  </div>
-
-  <footer class="page-footer teal">
     <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        <!-- <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel grey lighten-5 z-depth-1">
+                <div class="row valign-wrapper">
+                    <div class="col s3">
+                        <img src="NathanHead.png" alt="" class="circle responsive-img">
+                        <!- notice the "circle" class -->
+        <!-- </div> -->
+        <!-- <div class="col s10"> -->
+        <!-- <span class="black-text">
+                This is a square image. Add the "circle" class to it to make it appear circular.
+              </span>
+ -->
+        <!--             </div>
+                    </div>
+                </div>
+            </div> -->
+        <div class="section">
+            <!--   Icon Section   -->
+            <!-- <div class="row"> -->
+            <div class="row">
+                <!-- <div class="grid-example col s12"><span class="flow-text">I am always full-width (col s12)</span></div>
+<div class="grid-example col s12 m6"><span class="flow-text">I am full-width on mobile (col s12 m6)</span>
+</div>
+ -->
+                <!-- <div class="col s12 m4"> -->
+                <div class="icon-block">
+                    <h2 class="center brown-text">
+                        <!-- <img src="GitHub-Mark-120px-plus.png" alt="Github icon"> -->
+            <!-- <i class="material-icons">flash_on</i> -->
+            
 
-
+                    </h2>
+                    <h4 class="center" id="about">Hello All!</h4>
+                    <p class="light">
+                        A little bit about me: I am a music lover (yes I know everyone likes music) and lucky for me I live in a city that knows a thing about this. Not so much a festival guy but if I can catch a good band at a small to mid sized venue I am a happy man. Other than that I can be found at the great parks in the area or enjoying one of the many events that Nashville is coming to be known for. Like many I got to a point where I was in search of a new challenge when I came across Nashville Software School and learned what they were doing in this great town. I had very little experience in the field but the more I researched the more I wanted to know. To be part of a field where a single idea can reach millions while constantly learning new things was very appealing to me. So there it began a 12 month intensive bootcamp immersed in the core concepts of web development that proved to be a tough challenge. But thanks to some wise advice (Always Be Coding) I began to enjoy the learning process again. I look forward to utilizing the skills developed at NSS with an employer sometime soon and will be continuing this never ending journey of learning and some playing with these incredible tools.</p>
+                </div>
+            </div>
         </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-      </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
-      Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
-      </div>
     </div>
-  </footer>
+    </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+                    <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+    <div class="container">
+        <div class="section">
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4 id="projects">Projects</h4>
+                    <div class="carousel">
+                        <a class="carousel-item" href="#"><img src="/images/FrontPageScreenShot.png">
+                            <p>
+                                Aerial drone tracking app that allows users to save and review the locations that they have been while flying. Built using Angular JS, Firebase, Materialize
+                            </p>
+                        </a>
+                        <a class="carousel-item" href="#two!"><img src="/images/Add%20Review%20Screen%20Shot%20.png">
+                            <p>
+                                Using Google Maps API allows users to mark the locations they have explored
+                            </p>
+                        </a>
+                        <a class="carousel-item" href="#three!"><img src="/images/Card%20Display%20Screen%20Shot%20.png">
+                            <p>
+                                User friendly UI displaying all your location reviews
+                            </p>
+                        </a>
+                        <a class="carousel-item" href="#four!"><img src="/images/droneCloseUp.jpg">
+                            <p>
+                                Placeholder
+                            </p>
+                        </a>
+                        <a class="carousel-item" href="#five!"><img src="/images/mountainDrone.jpg">
+                            <p>
+                                Placeholder
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row" id="logo-container">
+                    <img src="/images/c-sharp-logo.png" alt="" class="c-logo">
+                    <img src="/images/angularIcon.png" alt="" class="ang-logo">
+                    <img src="/images/Git-Logo-2Color.png" alt="" class="git-logo">
+                    <img src="/images/javascript-shieldLogo.png" alt="" class="js-logo">
+                    <!-- <img src="/images/cssHtmlLogos.png" alt="" class="html-logo"> -->
+                </div>
+            </div>
+        </div>
+        <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+    </div>
+    <footer class="page-footer teal">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Company Bio</h5>
+                    <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Settings</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!">Link 1</a></li>
+                        <li><a class="white-text" href="#!">Link 2</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li><a class="white-text" href="https://github.com/ostrander-nathan">GitHub</a></li>
+                        <li><a class="white-text" href="#top">Back to top</a></li>
+                        <li><a class="white-text" href="#!">Link 3</a></li>
+                        <li><a class="white-text" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <ul><a class="white-text" href="#top">Back to top</a></ul>
+                <!-- Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> -->
+            </div>
+        </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+</body>
 
-
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-
-  </body>
 </html>
